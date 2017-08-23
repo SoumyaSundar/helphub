@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fillTheme {
+  fill: var(--PrimaryThemeColor);
+}
+
+/*help*/
+
+.help-dropdown {
+  padding-left: 21px;
+  padding-right: 21px;
+  border: 1px solid #ecf0f2;
+  text-align: justify;
+  overflow: scroll;
+  height: 88vh;
+}
+
+.search {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.searchText {
+  width: 60%;
+}
+
+.shortcuts {
+  padding-bottom: 5px;
+  border-top: 1px solid  #ecf0f2;
+  border-bottom: 1px solid  #ecf0f2;
+}
+
+.cards {
+  padding-bottom: 10px;
+}
+
+.footer {
+  height: 12vh;
+}
+
+.footer .doc{
+flex-basis:3rem;
+background-color:white;
+border-top:1px solid #DFE9E9;
+display:flex;
+flex-direction:column;
+justify-content:center;
+padding-left:0.5rem;
+padding-right:0.5rem;
+padding:0.5rem;
+flex-shrink:0;
+flex-grow:0
+}
+
+
+.footer .doc .button{
+background-color:#1E818C;
+color:white;
+height:3rem;
+text-align:center;
+cursor:pointer;
+display:flex;
+flex-direction:column;
+justify-content:center
+}
+
+
+/*Org */
+
+.org-dropdown {
+  padding-left: 21px;
+  padding-right: 21px;
+  border: 1px solid #ecf0f2;
+  text-align: justify;
+  height: 100vh;
+}
+
+.org-dropdown .titlearea{
+  padding-top:0rem;
+  height: 10vh;
+}
+
+.org-dropdown .titlearea h3{
+  margin-bottom:0
+}
+
+.org-dropdown .titlearea h5{
+  margin-top:0rem;
+  margin-bottom:0.5rem;
+}
+
+.org-dropdown .titlearea .datausage{
+  display:flex;
+  flex-direction:row;
+  padding-bottom:0rem;
+}
+
+.org-dropdown .titlearea .datausage h6{
+  margin:0
+}
+
+.org-dropdown .titlearea .datausage .label{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  flex-shrink:0
+}
+
+.org-dropdown .titlearea .datausage .graph{
+   flex-basis:100%;
+   display:flex;
+   flex-direction:column;
+   justify-content:flex-end;
+   align-items:flex-end;
+   text-align:right;
+   flex-direction:row
+}
+
+.org-dropdown .titlearea .datausage .graph a{
+  font-size:12px;
+  font-weight:600;
+  align-self:center
+}
+
+.org-dropdown .titlearea .datausage .graph img{
+  align-self:center;
+  height:2rem;
+  margin-left:0.5rem
+}
+
+.org-dropdown .org-count {
+  padding: 10px;
+  border-top: 1px solid  #ecf0f2;
+  border-bottom: 1px solid  #ecf0f2;
+  height: 2vh;
+}
+
+.org-dropdown .org-cards {
+  height: 67vh;
+  overflow: scroll;
+}
+
+.org-dropdown .footer2 {
+  height: 21vh;
+}
+
+.org-dropdown .footer2 .extralinks{
+border-top:1px solid #DFE9E9;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+padding-left:3rem;
+padding-right:3rem;
+height:3rem
+}
+
+.org-dropdown .footer2 .extralinks .item{
+font-size:12px;
+flex-shrink:0;
+flex-grow:0;
+display:flex;
+flex-direction:column;
+justify-content:center;
+text-align:center;
+cursor:pointer
+}
+
+.org-dropdown .footer2 .extralinks .item:hover{
+text-decoration:underline
+}
+
+.org-dropdown .footer2 .logout{
+flex-basis:3rem;
+background-color:white;
+border-top:1px solid #DFE9E9;
+display:flex;
+flex-direction:column;
+justify-content:center;
+padding-left:0.5rem;
+padding-right:0.5rem;
+padding:0.5rem;
+flex-shrink:0;
+flex-grow:0
+}
+
+.org-dropdown .footer2 .logout .button{
+background-color:#1E818C;
+color:white;
+height:3rem;
+text-align:center;
+cursor:pointer;
+display:flex;
+flex-direction:column;
+justify-content:center
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#1E818C;
+    color: white;
+    height: 56px;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav Button {
+    height: 56px;
+    width: 56px;
+    float: right;
+    display: block;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color:#1E818C;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav Button:hover {
+   background-color:#186A73;
+   color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav Button.active {
+    background-color:#186A73;
+    box-shadow:inset 0px -4px 0px #2EA4B2;
+    color: white;
+}
+
+.topnav #org {
+  width: 100px;
+}
+
+.sidebar {
+  top: 56px;
+}
+
+
+
+
